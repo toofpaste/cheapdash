@@ -67,7 +67,7 @@ $(document).ready(function() {
     $("#arrow").fadeOut();
 $("#wrapper").fadeOut();
 $("#allbox").fadeIn();
-if ($(window).scrollTop() < 100  && $("#nav_bar").css("font-size") <=(x.toString() + "px")) {
+if ($(window).scrollTop() < 250) {
 $('#nav_bar').css('font-size', x - Math.floor(($(window).scrollTop()/2)));
 }
 
