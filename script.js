@@ -59,7 +59,7 @@ var hold = [];
 var op = 1.0;
 $(document).ready(function() {
 
-  var x = Math.floor($(window).width()/10);
+  var x = Math.floor($(window).width()/12);
   $("#nav_bar").css('font-size', x);
 
 
@@ -76,10 +76,10 @@ if($(window).scrollTop() === 0){
   $("#wrapper").fadeIn();
 }
 
-    if ($(window).scrollTop() >= 100 && $(window).scrollTop() < $("#back").height() -200) {
+    if ($(window).scrollTop() >= 40 && $(window).scrollTop() < $("#back").height() -200) {
       $('#nav_bar').addClass('navbar-fixed');
     }
-    if ($(window).scrollTop() < 100) {
+    if ($(window).scrollTop() < 40) {
       $('#nav_bar').removeClass('navbar-fixed');
       $('#nav_bar').removeClass('navbar_done');
     }

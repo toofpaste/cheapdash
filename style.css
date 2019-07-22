@@ -43,7 +43,7 @@
 
 #banner {
 	width: 100%;
-	height: 100px;
+	height: 40px;
   	background-color: transparent;
 	overflow: hidden;
 }
@@ -83,7 +83,7 @@ z-index: 100;
 #allbox {
   display: none;
   display: inline-grid;
-  margin-top: 140vh;
+  margin-top: 130vh;
   grid-gap: 10px;
   width: 100%;
   justify-content: center;
@@ -200,7 +200,7 @@ grid-column-end: 3;
   font-weight: 500;
   font-size: 1em;
   text-transform: uppercase;
-  padding: 18px 50px;
+  padding: 18px 10px;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -221,19 +221,20 @@ grid-column-end: 3;
   justify-content: center;
   width: 100%;
   color: white;
-  margin-top: -107vh;
+  margin-top: -127vh;
   text-align: center;
 }
 
 #arrow img{
 
-height: 100px;
-width: 175px;
+height: 30px;
+width: 75px;
 z-index: 101;
 }
 #wrapper {
   width: 100%;
-  height: 160vh;
+  height: 190vh;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,7 +242,7 @@ z-index: 101;
   background-color: transparent;
 }
 #wrapper img{
-  width: 150px;
+  width: 200px;
 }
 #wrapper .btn-container {
   position: absolute;
